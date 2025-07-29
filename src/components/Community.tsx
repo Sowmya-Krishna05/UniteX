@@ -20,7 +20,14 @@ export const Community = () => {
     }, 30);
     return () => clearInterval(interval);
   }, []);
-  return <section id="community" className="py-20 bg-indigo-900 text-white relative overflow-hidden">
+  return <section
+  id="community"
+  className="py-20 text-white relative overflow-hidden"
+  style={{
+    background: 'linear-gradient(to bottom, rgba(21, 20, 26, 1) 0%, rgba(8, 2, 19, 1) 25%, rgba(16, 19, 36, 1) 50%, rgba(13, 14, 37, 1) 75%, rgba(24, 29, 56, 1) 100%)'
+  }}
+>
+
       {/* Animated background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <div className="absolute top-10 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-overlay filter blur-3xl opacity-20 animate-float"></div>
@@ -49,7 +56,7 @@ export const Community = () => {
               </div>;
         })}
         </div>
-        <div className="bg-indigo-800 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+        <div className="bg-rgba(18, 25, 66, 0.62)-800 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-2/3">

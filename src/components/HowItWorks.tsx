@@ -27,7 +27,13 @@ export const HowItWorks = () => {
     triggerOnce: false,
     threshold: 0.2
   }));
-  return <section id="how-it-works" className="py-20 bg-gradient-to-b from-white to-indigo-50">
+  return <section
+  id="how-it-works"
+  className="py-20 text-white"
+  style={{
+    background: 'linear-gradient(to bottom, rgba(21, 20, 26, 1) 0%, rgba(8, 2, 19, 1) 25%, rgba(16, 19, 36, 1) 50%, rgba(13, 14, 37, 1) 75%, rgba(24, 29, 56, 1) 100%)'
+  }}
+>
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
