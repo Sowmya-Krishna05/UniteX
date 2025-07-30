@@ -48,23 +48,23 @@ export const Testimonials = () => {
 >
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Student Success Stories
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-white-600 max-w-4xl mx-auto">
             Hear from students who have transformed their academic journey with
             Unitex.
           </p>
         </div>
         <div className="max-w-4xl mx-auto relative">
-          <div className="relative h-[400px] bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8 md:p-12 shadow-lg overflow-hidden">
-            {/* Background elements */}
+      <div className="relative h-[400px] bg-[#1c1c1f] rounded-2xl p-8 md:p-12 shadow-lg overflow-hidden">
+  {/* Background elements */}
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-r from-indigo-200 to-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
             <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-r from-blue-200 to-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
             <div className={`transition-all duration-500 h-full flex flex-col justify-between ${isAnimating ? 'opacity-0 transform translate-x-10' : 'opacity-100 transform translate-x-0'}`}>
               <div>
                 <div className="text-4xl text-indigo-400 mb-6">"</div>
-                <p className="text-lg md:text-xl text-gray-700 mb-8">
+                <p className="text-lg md:text-xl text-white-700 mb-8">
                   {testimonials[currentIndex].quote}
                 </p>
               </div>

@@ -38,7 +38,7 @@ export const Community = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Join Our Global Community
           </h2>
-          <p className="text-indigo-200 max-w-2xl mx-auto">
+          <p className="text-rgba(178, 176, 187, 1)-200 max-w-2xl mx-auto">
             Connect with students from around the world who are passionate about
             learning, growing, and achieving their dreams together.
           </p>
@@ -63,7 +63,7 @@ export const Community = () => {
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
                 Ready to Connect with Like-minded Students?
               </h3>
-              <p className="text-indigo-200 mb-6">
+              <p className="text-rgba(178, 176, 187, 1)-200 mb-6">
                 Join thousands of students who are already collaborating,
                 learning, and growing together on Unitex.
               </p>

@@ -30,7 +30,7 @@ export const CTA = () => {
               Schedule a Demo
             </button>
           </div>
-          <div className="mt-12 flex flex-wrap justify-center gap-8">
+          {/* <div className="mt-12 flex flex-wrap justify-center gap-8">
             <div className="flex items-center">
               <div className="flex -space-x-2">
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=50&q=80" alt="User" className="w-10 h-10 rounded-full border-2 border-white" />
@@ -48,7 +48,7 @@ export const CTA = () => {
                 <p className="text-indigo-100">4.9/5 from 2,000+ reviews</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>;

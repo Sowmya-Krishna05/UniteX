@@ -20,11 +20,6 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <div className="flex items-center">
-          <img
-            src="https://uploadthingy.s3.us-west-1.amazonaws.com/wCfH5dE8DCjdd4ZDx4VqyB/Screenshot_%2828%29.png"
-            alt="Unitex Logo"
-            className="h-8 mr-2"
-          />
           <span className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
             UniteX
           </span>

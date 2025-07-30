@@ -39,7 +39,7 @@ export const HowItWorks = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             How Unitex Works
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-rgba(178, 176, 187, 1)-600 max-w-2xl mx-auto">
             A simple four-step process to help you connect, collaborate, and
             achieve your academic goals.
           </p>
@@ -63,7 +63,7 @@ export const HowItWorks = () => {
                   <h3 className="text-2xl md:text-3xl font-bold mb-4">
                     {step.title}
                   </h3>
-                  <p className="text-gray-600 text-lg mb-6">
+                  <p className="text-rgba(178, 176, 187, 1)-600 text-lg mb-6">
                     {step.description}
                   </p>
                   <div className="h-1 w-20 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full"></div>
